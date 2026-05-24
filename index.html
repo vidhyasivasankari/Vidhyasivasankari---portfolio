@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIDHYASIVASANKARI D | ECE Portfolio</title>
+    <meta name="description" content="Professional portfolio of VIDHYASIVASANKARI D, an Electronics and Communication Engineering student at Sona College of Technology, specializing in Embedded Systems, PCB Design, and C Programming.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Status Indicator Bar -->
+    <div class="system-status-bar" id="status-bar">
+        <div class="status-indicator">
+            <span class="status-dot"></span>
+            <span class="status-text">SYSTEM STATUS: ONLINE // CORE: ECE_PORTFOLIO_V1.0</span>
+        </div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="main-header" id="header">
+        <div class="header-container">
+            <a href="#home" class="logo">
+                <svg class="logo-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Resistor Symbol Logo -->
+                    <path d="M2 12H6L8 8L11 16L14 8L16 16L18 12H22" stroke="var(--color-cyan)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="6" cy="12" r="2" fill="var(--color-gold)"/>
+                    <circle cx="18" cy="12" r="2" fill="var(--color-gold)"/>
+                </svg>
+                <span class="logo-text">VIDHYASIVASANKARI D</span>
+            </a>
+            <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="https://www.linkedin.com/in/vidhyasivasankari-d-ba0b05326" target="_blank" rel="noopener noreferrer" class="nav-btn">LinkedIn</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero-section">
+            <div class="grid-overlay"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="pre-title">// HARDWARE-SOFTWARE INTEGRATION</span>
+                    <h1 class="hero-name">VIDHYASIVASANKARI D</h1>
+                    <p class="hero-headline">Embedded Systems Enthusiast | PCB Designer | C Programmer</p>
+                    <p class="hero-intro">
+                        Electronics and Communication Engineering student passionate about embedded systems, PCB layouts, and C programming. Dedicated to designing practical, efficient, and reliable hardware-software integrations that solve real-world engineering challenges.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://www.linkedin.com/in/vidhyasivasankari-d-ba0b05326" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn Profile">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                        </a>
+                        <a href="https://github.com/vidhyasivasankari" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub Profile">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Ground Line Element -->
+            <div class="ground-pattern"></div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">// SYSTEM_SPECS</span>
+                    <h2>About Me</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text-card">
+                        <p class="about-bio">
+                            I am an Electronics and Communication Engineering student at Sona College of Technology with interests in Embedded Systems, PCB Design, and Programming. I enjoy working on practical electronic solutions and continuously improving my technical knowledge through projects, workshops, certifications, and internships.
+                        </p>
+                    </div>
+                    <div class="specs-card">
+                        <div class="specs-header">
+                            <span class="specs-title">HARDWARE DATA SHEET</span>
+                        </div>
+                        <div class="specs-table">
+                            <div class="spec-row">
+                                <span class="spec-label">INSTITUTION</span>
+                                <span class="spec-value">Sona College of Technology</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">DEPARTMENT</span>
+                                <span class="spec-value">Electronics & Communication</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">SEMESTER</span>
+                                <span class="spec-value">05 / 08</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">ACADEMIC STANDING (CGPA)</span>
+                                <span class="spec-value highlight-gold">8.67</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">// SKILLS_INVENTORY</span>
+                    <h2>Technical Skills</h2>
+                </div>
+                <div class="skills-grid">
+                    <!-- PCB Design -->
+                    <div class="skill-card">
+                        <div class="skill-icon-wrapper">
+                            <svg class="skill-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="2" width="20" height="20" rx="2" stroke="var(--color-cyan)" stroke-width="1.5"/>
+                                <path d="M6 6H9M6 18H9M18 6H15M18 18H15" stroke="var(--color-cyan)" stroke-width="1.5" stroke-linecap="round"/>
+                                <circle cx="12" cy="12" r="3" stroke="var(--color-cyan)" stroke-width="1.5"/>
+                                <path d="M9 12H12M15 12H12M12 9V12M12 15V12" stroke="var(--color-cyan)" stroke-width="1" stroke-linecap="round"/>
+                                <circle cx="9" cy="6" r="1" fill="var(--color-gold)"/>
+                                <circle cx="15" cy="18" r="1" fill="var(--color-gold)"/>
+                            </svg>
+                        </div>
+                        <h3>PCB Design</h3>
+                        <p class="skill-desc">Designing professional, clean, and manufacturable printed circuit boards using standard EDA tools, emphasizing trace signal integrity.</p>
+                    </div>
+
+                    <!-- C Programming -->
+                    <div class="skill-card">
+                        <div class="skill-icon-wrapper">
+                            <svg class="skill-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18 8C16.5 6 14.5 5 12 5C8.13401 5 5 8.13401 5 12C5 15.866 8.13401 19 12 19C14.5 19 16.5 18 18 16" stroke="var(--color-cyan)" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M8 12H14" stroke="var(--color-gold)" stroke-width="1.5" stroke-linecap="round"/>
+                                <circle cx="14" cy="12" r="1.5" fill="var(--color-gold)"/>
+                            </svg>
+                        </div>
+                        <h3>C Programming</h3>
+                        <p class="skill-desc">Developing hardware-level logic, managing register mapping, and optimizing code for memory and latency-sensitive microcontrollers.</p>
+                    </div>
+
+                    <!-- Embedded Systems -->
+                    <div class="skill-card">
+                        <div class="skill-icon-wrapper">
+                            <svg class="skill-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="5" y="5" width="14" height="14" rx="1" stroke="var(--color-cyan)" stroke-width="1.5"/>
+                                <path d="M2 8H5M2 12H5M2 16H5" stroke="var(--color-gold)" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M19 8H22M19 12H22M19 16H22" stroke="var(--color-gold)" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M8 2V5M12 2V5M16 2V5" stroke="var(--color-gold)" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M8 19V22M12 19V22M16 19V22" stroke="var(--color-gold)" stroke-width="1.5" stroke-linecap="round"/>
+                                <circle cx="12" cy="12" r="2.5" stroke="var(--color-cyan)" stroke-width="1.5"/>
+                            </svg>
+                        </div>
+                        <h3>Embedded Systems</h3>
+                        <p class="skill-desc">Integrating microcontrollers with digital and analog sensors, configuring communication interfaces and GPIO registers.</p>
+                    </div>
+
+                    <!-- Circuit Designing -->
+                    <div class="skill-card">
+                        <div class="skill-icon-wrapper">
+                            <svg class="skill-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 12H6L8 5L11 19L14 9L16 15L18 12H22" stroke="var(--color-cyan)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <circle cx="12" cy="12" r="1.5" fill="var(--color-gold)"/>
+                            </svg>
+                        </div>
+                        <h3>Circuit Designing</h3>
+                        <p class="skill-desc">Developing clean schematic designs, matching components, selecting appropriate filters, and ensuring stable power supply paths.</p>
+                    </div>
+
+                    <!-- Problem Solving -->
+                    <div class="skill-card">
+                        <div class="skill-icon-wrapper">
+                            <svg class="skill-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 12C6 8.68629 8.68629 6 12 6C15.3137 6 18 8.68629 18 12C18 15.3137 15.3137 18 12 18" stroke="var(--color-cyan)" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M12 6V2M12 18V22" stroke="var(--color-gold)" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M6 12H2M18 12H22" stroke="var(--color-gold)" stroke-width="1.5" stroke-linecap="round"/>
+                                <circle cx="12" cy="12" r="2" fill="var(--color-cyan)"/>
+                            </svg>
+                        </div>
+                        <h3>Problem Solving</h3>
+                        <p class="skill-desc">Resolving electronic logic and firmware bugs systematically through debug interfaces, signal analyzers, and hardware debugging.</p>
+                    </div>
+
+                    <!-- Technical Presentation -->
+                    <div class="skill-card">
+                        <div class="skill-icon-wrapper">
+                            <svg class="skill-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="3" y="4" width="18" height="13" rx="1" stroke="var(--color-cyan)" stroke-width="1.5"/>
+                                <path d="M8 20L12 17L16 20" stroke="var(--color-cyan)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6 8L10 12L13 9L17 13" stroke="var(--color-gold)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <circle cx="17" cy="13" r="1" fill="var(--color-gold)"/>
+                            </svg>
+                        </div>
+                        <h3>Technical Presentation</h3>
+                        <p class="skill-desc">Communicating complex engineering designs, schematic concepts, and project architectures logically to technical and non-technical stakeholders.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">// ENGINEERING_SHOWCASE</span>
+                    <h2>Featured Project</h2>
+                </div>
+                <div class="project-showcase">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <span class="project-num">PROJECT_01</span>
+                            <h3>Smart Water Tank Monitoring System</h3>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-desc">
+                                Designed and developed a water-level monitoring system using a 7-level sensor mechanism. The system continuously senses the liquid level and activates a buzzer alert when the water tank becomes full to help prevent overflow and reduce water wastage.
+                            </p>
+                            
+                            <div class="tech-used">
+                                <span class="tech-tag">Embedded Systems</span>
+                                <span class="tech-tag">Sensors</span>
+                                <span class="tech-tag">PCB Design</span>
+                                <span class="tech-tag">C Programming</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- ECE Hardware Schematic Block Diagram -->
+                    <div class="schematic-diagram-card">
+                        <div class="schematic-header">
+                            <span class="schematic-title">HARDWARE BLOCK DIAGRAM (SYSTEM ARCHITECTURE)</span>
+                        </div>
+                        <div class="schematic-view">
+                            <div class="schematic-block sensor-block">
+                                <div class="block-id">INPUT</div>
+                                <div class="block-name">7-Level Sensor Mechanism</div>
+                                <div class="block-sub">Resistance/Level Probes</div>
+                            </div>
+                            
+                            <div class="schematic-bus">
+                                <span class="bus-line"></span>
+                                <span class="bus-arrow">▶</span>
+                                <span class="bus-label">7-Bit GPIO Signal</span>
+                            </div>
+                            
+                            <div class="schematic-block mcu-block">
+                                <div class="block-id">PROCESSOR</div>
+                                <div class="block-name">Microcontroller Logic</div>
+                                <div class="block-sub">Embedded C Logic</div>
+                            </div>
+                            
+                            <div class="schematic-bus">
+                                <span class="bus-line"></span>
+                                <span class="bus-arrow">▶</span>
+                                <span class="bus-label">Interrupt trigger</span>
+                            </div>
+                            
+                            <div class="schematic-block output-block">
+                                <div class="block-id">OUTPUT</div>
+                                <div class="block-name">Buzzer Alert System</div>
+                                <div class="block-sub">Transistor-driven Alarm</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Experience Section -->
+        <section id="certifications" class="certifications-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">// LOGIC_SEQUENCE</span>
+                    <h2>Certifications & Experience</h2>
+                </div>
+                
+                <div class="timeline-container">
+                    <!-- Internship -->
+                    <div class="timeline-item">
+                        <div class="timeline-indicator">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-pulse"></div>
+                        </div>
+                        <div class="timeline-content-card">
+                            <span class="category-tag internship-tag">INTERNSHIP</span>
+                            <h3>TVS Motors Company Internship</h3>
+                            <p class="timeline-details">Gained practical industry exposure, learning industrial electronics applications and process flows at a leading manufacturing facility.</p>
+                        </div>
+                    </div>
+
+                    <!-- Presentations -->
+                    <div class="timeline-item">
+                        <div class="timeline-indicator">
+                            <div class="timeline-dot"></div>
+                        </div>
+                        <div class="timeline-content-card">
+                            <span class="category-tag presentation-tag">PAPER PRESENTATION</span>
+                            <h3>Smart Irrigation System</h3>
+                            <p class="timeline-details">Presented an engineering paper outlining an automated irrigation loop using sensors, analyzing efficiency metrics and signal routing.</p>
+                        </div>
+                    </div>
+
+                    <!-- Workshops -->
+                    <div class="timeline-item">
+                        <div class="timeline-indicator">
+                            <div class="timeline-dot"></div>
+                        </div>
+                        <div class="timeline-content-card">
+                            <span class="category-tag workshop-tag">WORKSHOPS</span>
+                            <div class="timeline-multi-item">
+                                <div>
+                                    <h4 class="sub-achievement">PCB Design Workshop</h4>
+                                    <p class="timeline-details">Hands-on practical training covering multi-layer routing, trace calculations, and footprint associations.</p>
+                                </div>
+                                <div style="margin-top: 15px; border-top: 1px solid var(--color-border); padding-top: 15px;">
+                                    <h4 class="sub-achievement">Machine Learning Workshop</h4>
+                                    <p class="timeline-details">Explored integration points between intelligent algorithm structures and computational node pipelines.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certifications -->
+                    <div class="timeline-item">
+                        <div class="timeline-indicator">
+                            <div class="timeline-dot"></div>
+                        </div>
+                        <div class="timeline-content-card">
+                            <span class="category-tag cert-tag">CERTIFICATIONS</span>
+                            <div class="timeline-multi-item">
+                                <div>
+                                    <h4 class="sub-achievement">Digital Signal Processing</h4>
+                                    <p class="timeline-details">Academic certification verifying core principles of sampling, discrete transforms, and digital filtering.</p>
+                                </div>
+                                <div style="margin-top: 15px; border-top: 1px solid var(--color-border); padding-top: 15px;">
+                                    <h4 class="sub-achievement">Digital 101</h4>
+                                    <p class="timeline-details">Certification covering logic gate designs, combinational circuit minimization, and flip-flop timing diagrams.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">// PORT_INTERFACE</span>
+                    <h2>Get In Touch</h2>
+                </div>
+                <div class="contact-card">
+                    <p class="contact-prompt">
+                        Whether you are looking for a dedicated ECE intern, a hardware logic developer, or want to discuss embedded designs, feel free to connect via the interfaces below.
+                    </p>
+                    <div class="contact-actions">
+                        <a href="https://www.linkedin.com/in/vidhyasivasankari-d-ba0b05326" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 8px;">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                            LinkedIn Profile
+                        </a>
+                        <a href="https://github.com/vidhyasivasankari" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 8px;">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            GitHub Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <span class="footer-status">SYSTEM CORE OK // 2026</span>
+            <p class="copyright">Designed and Developed by VIDHYASIVASANKARI D</p>
+        </div>
+    </footer>
+
+    <!-- Script File -->
+    <script src="script.js"></script>
+</body>
+</html>
